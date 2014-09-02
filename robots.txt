@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /joe/G
+Disallow: /gmaps
+Disallow: /kings
+Disallow: /gps
+Disallow: /404
+Disallow: /joe/link
+Disallow: /joe/design
