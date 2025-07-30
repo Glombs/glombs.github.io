@@ -1,5 +1,5 @@
 
-#heads img, #heads #more:focus .head img, #heads #more:target .head img, #heads #more:before {
+#heads img, #heads #more:focus-within .head img, #heads #more:target .head img, #heads #more:before {
     height:100px;
     width: 100px;
     border-width: 3px;
@@ -78,7 +78,7 @@ ul, li {
     cursor: pointer;
 }
 
-#heads #more:focus, #heads #more:target {
+#heads #more:focus-within, #heads #more:target {
     cursor: default;
 }
 
@@ -91,7 +91,7 @@ ul, li {
 
 
 
-#heads #more:focus:before, #heads #more:target:before {
+#heads #more:focus-within:before, #heads #more:target:before {
     height:0px;
     width:0px;
     border-width:0px;
